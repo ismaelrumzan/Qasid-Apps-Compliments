@@ -1,0 +1,181 @@
+/** Custom styles for B1 Diplomat book **/
+.mainTitle .as1 {padding-top: 4em; margin-right: 0.9em; margin-bottom: 0.8em;}
+.mainTitle {text-align: right;}
+.ch02img {background-image:url(../B1/images/headerimage-chapter02.jpg);}
+.ch04img {background-image:url(../B1/images/headerimage-chapter04.jpg);}
+.ch07img {background-image:url(../B1/images/headerimage-chapter07.jpg);}
+.ch08img {background-image:url(../B1/images/headerimage-chapter08.jpg);}
+.ch09img {background-image:url(../B1/images/headerimage-chapter09.jpg);}
+.ch10img {background-image:url(../B1/images/headerimage-chapter10.jpg);}
+.bookimg {background-image:url(../B1/images/headerimage-bookcover.jpg);}
+.s1 {font-size:1.5em; font-style: normal;}
+.s2 {font-size:1.2em; font-style: normal;}
+.s3 {font-size:0.8em; font-style: normal;}
+div.vocabPos {display: block; text-align: center; color:black;}
+.as1 {font-size:1.8em; font-style: normal; font-weight: normal !important;font-family: "Sakkal Majalla_1188897" !important; text-shadow: none !important; line-height: 1em;}
+.as2 {font-size:1.4em !important; font-style: normal; text-align: right; direction: rtl; font-weight: normal !important; text-shadow: none !important; 
+	font-family: "Sakkal Majalla_1188897" !important; padding: 0 !important; margin: 0.3em 0 !important;}
+.as2 p {margin: 0.3em !important;}
+.as2S {font-size:1.5em; font-style: normal; color: #8c0c04; text-align: center;}
+.as3 {font-size:1.2em !important; font-style: normal;top:1.2em !important; right:0.8em !important; line-height: 1.2em; text-shadow: none !important; font-family: "Sakkal Majalla_1188897" !important; max-width: 40% !important;}
+.redtext {color: #8c0c04; font-size: 1.2em; font-weight: bold;}
+.asList {font-size:1.4em !important; font-style: normal; line-height: 1.2em; text-shadow: none !important; font-family: "Sakkal Majalla_1188897" !important;}
+.arTitle {font-family: "Sakkal Majalla_1188897" !important; text-shadow: none; font-weight: normal; text-align: center;}
+.wordType {color: #8A8A8A; font-style: italic;}
+.wordMearning, .wordContext {font-weight: 800; line-height: 1.2em;}
+.wordMeaningBox {font-family: 'AvenirNextLTW01-Regular' !important; text-align: left; line-height: 0.5em;}
+.wordExampleTitle {font-weight: 400;}
+.wordExampleEng {margin-left: 1em !important;}
+.wordExampleAr {font-family: "Sakkal Majalla_1188897" !important; text-align: right; margin-right: 1em !important; direction: rtl;}
+.wordText {direction: rtl;}
+.listeningBox {padding: 1.5em;}
+.englishBody li a {font-family: 'AvenirNextLTW01-Regular' !important;}
+.listArabic li a, .listArabic li p {text-align: right !important; direction: rtl;}
+.listAr {font-size: 1.2em; white-space: normal !important;}
+#chapterlist li a, #chapterlist li p {font-size: 1.2em !important;}
+.chapterlist li div a img { width: 1.5em; padding-top: 0.3em;}
+.chapterlist li div a img:hover { cursor: pointer;}
+.chapterlist li div { font-size:1.4em; font-style: normal; text-align: right; direction: rtl; font-family: "Sakkal Majalla_1188897" !important;}
+.chapterlist li div a { color: #555555 !important; text-decoration: none;}
+.chapterlist li div a:hover {color: #8c0c04; cursor: pointer;}
+.chapterlist li div a span { position: absolute; display: inline-block; right: 2.5em;}
+.link1 {top: 2.6em;}
+.link2 {top: 4.9em;}
+div.audio-play-pause {
+    margin:auto;
+    height: 24px;
+    width: 23px;
+    cursor: pointer;
+}
+div.audio-paused{
+    background-image: url('images/sound-preclick.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div.audio-playing{
+    background-image: url('images/sound-playing.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div.audiobtnPos {width: 100%; display: block; text-align: left;}
+#navigationPanel a {font-size: 1.2em;}
+.videocontainer { margin: 0.3em;}
+.videocontainer video {width: 100%;}
+.videocontainer audio {width: 100%;}
+.videocontainer .as1 {color:black !important;}
+/* customize jquery ui elements */
+.ui-listview .ui-li-has-thumb>.ui-btn>img:first-child { max-width: 2.5em !important;}
+.ui-listview>.ui-li-has-thumb>.ui-btn { padding-right: 3.5em !important;}
+.ui-bar-a,
+.ui-page-theme-a .ui-bar-inherit,
+html .ui-bar-a .ui-bar-inherit,
+html .ui-body-a .ui-bar-inherit,
+html body .ui-group-theme-a .ui-bar-inherit {
+	background-color: #8c0c04/*{a-bar-background-color}*/ !important;
+	border-color: #8c0c04 /*{a-bar-border}*/ !important;
+	color: #ffffff /*{a-bar-color}*/;
+	text-shadow: none;
+	font-weight: normal;
+	font-family: Adelle W01 Regular;
+	font-size: 1em;
+}
+body,
+input,
+select,
+textarea,
+button,
+.ui-btn {
+	font-size: 1em;
+	line-height: 1.1;
+	font-family: "Sakkal Majalla_1188897"; /*{global-font-family}*/;
+	font-style: normal !important;
+	font-weight: normal !important;
+}
+audio {width: 95%;}
+/* Button up */
+.ui-page-theme-a .ui-btn,
+html .ui-bar-a .ui-btn,
+html .ui-body-a .ui-btn,
+html body .ui-group-theme-a .ui-btn,
+html head + body .ui-btn.ui-btn-a,
+/* Button visited */
+.ui-page-theme-a .ui-btn:visited,
+html .ui-bar-a .ui-btn:visited,
+html .ui-body-a .ui-btn:visited,
+html body .ui-group-theme-a .ui-btn:visited,
+html head + body .ui-btn.ui-btn-a:visited {
+	background-color: #8c0c04 /*{a-bup-background-color}*/;
+	border-color: #8c0c04 /*{a-bup-border}*/;
+	color: #ffffff /*{a-bup-color}*/;
+	text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #444444 /*{a-bup-shadow-color}*/;
+}
+#homeBtn {margin-top:0em;}
+
+/* Button up */
+.ui-page-theme-b .ui-btn,
+html .ui-bar-b .ui-btn,
+html .ui-body-b .ui-btn,
+html body .ui-group-theme-b .ui-btn,
+html head + body .ui-btn.ui-btn-b,
+/* Button visited */
+.ui-page-theme-b .ui-btn:visited,
+html .ui-bar-b .ui-btn:visited,
+html .ui-body-b .ui-btn:visited,
+html body .ui-group-theme-b .ui-btn:visited,
+html head + body .ui-btn.ui-btn-b:visited {
+	background-color: #f6f6f6 /*{c-bup-background-color}*/;
+	border-color: #dddddd /*{c-bup-border}*/;
+	color: #333333 /*{c-bup-color}*/;
+	text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 0 /*{c-bup-shadow-radius}*/ #f3f3f3 /*{c-bup-shadow-color}*/;
+}
+.list-image {
+	max-height: 3em !important;
+	max-width: 3em !important;
+	top: 0.5em !important;
+	left: 0.5em !important;
+	bottom: 0.5em !important;
+	border-radius: 50% !important;
+}
+
+.ui-listview > .ui-li-has-thumb > .ui-btn, .ui-listview > .ui-li-static.ui-li-has-thumb  {
+	min-height: 1em;
+	padding-top: 1em;
+	padding-bottom: 1.1em;
+}
+
+.ui-icon-vocab:after {
+	background-image: url("../css/images/Icon-Vocab-2x.png");
+	background-size:cover;
+	background-color: #f6f6f6;
+	width: 1.8em !important; height: 1.8em !important; border-radius: 0 !important;
+}
+.ui-icon-textbook:after {
+	background-image: url("../css/images/Icon-ReadingText2x.png");
+	background-size: cover;
+	background-color: #f6f6f6;
+	width: 1.8em !important; height: 1.8em !important; border-radius: 0 !important;
+}
+.ui-icon-listening:after {
+	background-image: url("../css/images/Icon-Listening2x.png");
+	background-size: cover;
+	background-color: #f6f6f6;
+	width: 1.8em !important; height: 1.8em !important; border-radius: 0 !important;
+}
+#lessonlist .ui-li-divider {padding-right: 0.5em !important;}
+#lessonlist .as3 {padding-right: 0.75em !important;}
+.ui-collapsible h3 a {text-align: right !important; padding-right: 1em !important;}
+.ui-listview>.ui-li-has-thumb>.ui-btn, .ui-listview>.ui-li-static.ui-li-has-thumb {padding-left: 0.5em !important;}
+.ui-btn-icon-right:after {left: .4em !important; right: auto !important;}
+.ui-btn-icon-right {padding-right: 1em;}
+.footernav .ui-btn { padding-top: 40px !important; }
+.footernav .ui-btn:after { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+.homebtnup:after { background-image: url(images/Icon-Home-grey2x.png); background-repeat: no-repeat; background-size: 3em 3em; background-color: transparent;}
+.listbtnup:after { background-image: url(images/Icon-Textbook-grey2x.png); background-repeat: no-repeat; background-size: 3em 3em; background-color: transparent}
+.listbtndown:after { background-image: url(images/Icon-Textbook-maroon2x.png); background-repeat: no-repeat; background-size: 3em 3em; background-color: transparent}
+.searchbtnup:after { background-image: url(images/Icon-Search-grey2x.png); background-repeat: no-repeat; background-size: 3em 3em; background-color: transparent}
+.searchbtndown:after { background-image: url(images/Icon-Search-maroon2x.png); background-repeat: no-repeat; background-size: 3em 3em; background-color: transparent}
+.footernav ul li a, input { font-family: 'AvenirNextLTW01-Regular' !important; font-size: 0.9em !important;}
+.footernav ul li a.listbtndown, .footernav ul li a.searchbtndown {color: #cc2036 !important;}
+.footernav ul li a.listbtnup, .footernav ul li a.homebtnup, .footernav ul li a.searchbtnup {color: #929292 !important;}
+input {direction: ltr; padding-left: 2.2em !important;}
+.ui-listview>.ui-li-divider {text-align: right !important; direction: rtl !important; font-size: 1.3em !important; font-family: "Sakkal Majalla_1188897" !important;}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.qasid.commons"
+    versionCode = "2"
+    version     = "1.0.2" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Arabic Compliments</name>
+
+  <description>
+      A Digital Library for Arabic Compliments
+  </description>
+
+  <author href="https://www.qasid.com" email="help@qasid.com">
+      Qasid Arabic Institute
+  </author>
+  
+  <icon src="icon.png" />
+
+</widget>

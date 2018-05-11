@@ -1,0 +1,22 @@
+/** Custom Styles - Common to all files in main root and sub folders **/
+.headerTitle {text-align: left !important;}
+.mainTitle {text-align: left; background-repeat: no-repeat; background-size: cover; background-position: center; color: #FFF; text-shadow: none; padding: 0 0.2em 0 0.3em;}
+.mainTitle .as1, .mainTitle .es1 {padding-top: 4em; margin-right: 0.7em; margin-bottom: 0.7em; padding-left: 0.4em;}
+.mainTitle h1.es1 {text-align: left;}
+.mainTitle h3 a {color: #E5E5E5 !important; text-decoration: none !important; text-shadow: none !important;}
+.commonsimg {background-image:url("../images/headerimage-commonsmain.jpg");}
+.footerText { direction: ltr !important; font-family: 'AvenirNextLTW01-Regular' !important; font-size: 0.9em; text-align: center;}
+.englishText {font-family: 'Adelle W01 Regular' !important; direction: ltr !important; font-size: 1em;}
+.es1 {font-size:1.6em; font-style: normal; font-weight: normal !important;font-family: "Adelle W01 Regular" !important; text-shadow: none !important; color: #fff;}
+.as1 {font-size:1.6em; font-style: normal; font-weight: normal !important;font-family: "Sakkal Majalla_1188897" !important; text-shadow: none !important; color: #fff;}
+.as3 {font-size:1.2em !important; font-style: normal;top:1.8em !important; right:0.8em !important; line-height: 1.2em; text-shadow: none !important; font-family: "Sakkal Majalla_1188897" !important;}
+.listEng {display: block; font-family: 'Adelle W01 Regular'; font-size: 0.8em; margin-top: 0.3em; overflow:hidden; direction: ltr;}
+#topbar h1 {font-weight: normal !important;}
+/** Customize jquery styles **/
+body {direction: rtl !important;}
+.ui-listview .ui-li-has-thumb>.ui-btn>img:first-child { right: 0.5em !important; top: 0.5em !important; max-height: 4em !important;}
+.ui-listview>.ui-li-has-thumb>.ui-btn { padding-right: 5.25em !important;}
+.ui-listview>li>a.ui-btn {text-align: right !important;}
+.ui-title {margin: 0 10% !important;}
+input { font-family: 'AvenirNextLTW01-Regular' !important; font-size: 0.7em; direction: ltr; padding-left: 2.2em !important;}
+.ui-listview>.ui-li-divider {background-color:#ebebeb !important; color: #333333; border:none; font-family: 'Adelle W01 Regular' !important;}
